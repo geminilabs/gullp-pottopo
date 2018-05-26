@@ -1,0 +1,27 @@
+{
+  "name": "gulp-pottopo",
+  "description": "Gulp plugin to generate a default PO translation from GNU Gettext POT files",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Paul Ryley",
+    "url": "https://github.com/geminilabs"
+  },
+  "homepage": "https://github.com/geminilabs/gulp-pottopo.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geminilabs/gulp-pottopo.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gettext",
+    "i18n"
+  ],
+  "dependencies": {
+    "gettext-parser": "^1.4.0",
+    "gulp-util": "^3.0.8",
+    "just-extend": "^1.1.27",
+    "through2": "^2.0.3"
+  },
+  "main": "index.js"
+}
